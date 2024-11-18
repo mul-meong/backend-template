@@ -1,4 +1,4 @@
-package com.mulmeong.member_read.common.response;
+package com.mulmeong.test.common.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,11 +25,9 @@ public enum BaseResponseStatus {
     INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, false, 900, "요청 처리 중 에러가 발생하였습니다.");
 
 
-    // 추가하세요.
-
-
     private final HttpStatusCode httpStatusCode;
     private final boolean isSuccess;
     private final int code;
     private final String message;
 }
+
